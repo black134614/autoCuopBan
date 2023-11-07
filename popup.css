@@ -1,0 +1,31 @@
+.toogle-btn.auto-steal-friend-btn {
+  position: fixed;
+  z-index: 9;
+  right: 10px;
+  top: 70px;
+  cursor: pointer;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: cornflowerblue;
+  border-radius: 0.5rem;
+}
+
+.toogle-btn.auto-steal-friend-btn img {
+  width: 40px;
+  height: 40px;
+}
+
+.toogle-btn.auto-steal-friend-btn .count-loop {
+  position: absolute;
+  z-index: 10;
+  right: -5px;
+  top: -5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: red;
+  font-size: 14px;
+  line-height: 20px;
+}
