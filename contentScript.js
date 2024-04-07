@@ -60,7 +60,7 @@
                     await clickCraftingButton()
                 }
                 console.log("check_click lien tuc");
-                await sleep(50)
+                await sleep(1000)
             }
             stopProcessing = true;
             wrapper.className = "toogle-btn auto-water auto-off";
