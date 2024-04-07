@@ -1,15 +1,15 @@
 {
-  "name": "Auto cướp bạn",
+  "name": "Auto cooking",
   "version": "0.1.0",
-  "description": "Niêm yết sản phẩm lên các nhóm Facebook hàng loạt nhưng không tính spam",
+  "description": "Auto cooking",
   "permissions": ["storage", "tabs"],
-  "host_permissions": ["https://*.facebook.com/*"],
+  "host_permissions": ["https://play.pixels.xyz/*"],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["https://*.facebook.com/*"],
+      "matches": ["https://play.pixels.xyz/*"],
       "js": ["contentScript.js"],
       "css": ["popup.css"]
     }
@@ -17,14 +17,9 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "assets/bookmark.png",
-        "assets/play.png",
-        "assets/delete.png",
-        "assets/save.png",
-        "assets/power-off.png",
-        "assets/power-on.png"
+        "assets/cooking.png"
       ],
-      "matches": ["https://*.facebook.com/*"]
+      "matches": ["https://play.pixels.xyz/*"]
     }
   ],
   "action": {
@@ -33,7 +28,7 @@
       "24": "assets/ext-icon.png",
       "32": "assets/ext-icon.png"
     },
-    "default_title": "Auto cướp bạn",
+    "default_title": "Auto cooking",
     "default_popup": "popup.html"
   },
   "manifest_version": 3

@@ -1,31 +1,31 @@
-.toogle-btn.auto-steal-friend-btn {
+.toogle-btn.auto-water {
   position: fixed;
   z-index: 9;
-  right: 10px;
-  top: 70px;
+  left: 20px;
+  top: 25vh;
   cursor: pointer;
   padding: 5px;
-  width: 40px;
   height: 40px;
   background-color: cornflowerblue;
   border-radius: 0.5rem;
 }
 
-.toogle-btn.auto-steal-friend-btn img {
-  width: 40px;
-  height: 40px;
+.toogle-btn.auto-water img {
+  width: 60px;
+  height: 30px;
+  border-radius: 0.5rem;
 }
 
-.toogle-btn.auto-steal-friend-btn .count-loop {
-  position: absolute;
-  z-index: 10;
-  right: -5px;
-  top: -5px;
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-  text-align: center;
+.toogle-btn.auto-water.auto-on {
   background-color: red;
-  font-size: 14px;
-  line-height: 20px;
+}
+
+.auto-input-loop {
+  font-size: 10px;
+  text-align: right;
+  width: auto;
+  border-radius: 0.25rem;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 5px;
 }

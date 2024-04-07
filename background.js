@@ -1,5 +1,5 @@
 chrome.tabs.onUpdated.addListener((tabId, tab) => {
-  if (tab.url && tab.url.includes("www.facebook.com/groups")) {
+  if (tab.url && tab.url.includes("play.pixels.xyz")) {
     // const queryParameters = tab.url.split("?")[1];
     // const urlParameters = new URLSearchParams(queryParameters);
 
